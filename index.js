@@ -14,6 +14,7 @@
  * Invoking `processFirstItem` passing `['foo', 'bar']` and `(str) => str + str`,
  * should return 'foofoo'.
 */
+// x
 function processFirstItem(stringList, callback) {
   return callback(stringList[0])
 }
